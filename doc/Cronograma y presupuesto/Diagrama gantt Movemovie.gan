@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="MoveMovie" company="serviciosystems" webLink="http:/www.none.com" view-date="2019-09-06" view-index="0" gantt-divider-location="340" resource-divider-location="300" version="2.8.6" locale="es_ES">
+    <description><![CDATA[Proyecto sobre una página web para realizar las actividades de venta de boletas, gestionando la informaciòn de estas mismas, de las peliculas a promocionar y de los usuarios que van a interacctuar con el sistema]]></description>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="183" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="69" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="69" order="2"/>
+        <option id="color.recent"><![CDATA[#f4626b #4cbb87 #edf453 #666666 #666600 #660000 #003366 #749d15 #8e5611 #19bc6c]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2006" month="1" date="1" type="HOLIDAY" color="#808080"/>
+        <date year="2006" month="1" date="9" type="HOLIDAY"/>
+        <date year="2006" month="3" date="20" type="HOLIDAY"/>
+        <date year="2006" month="4" date="13" type="HOLIDAY"/>
+        <date year="2006" month="4" date="14" type="HOLIDAY"/>
+        <date year="2006" month="5" date="1" type="HOLIDAY"/>
+        <date year="2006" month="5" date="29" type="HOLIDAY"/>
+        <date year="2006" month="6" date="19" type="HOLIDAY"/>
+        <date year="2006" month="6" date="26" type="HOLIDAY"/>
+        <date year="2006" month="7" date="3" type="HOLIDAY"/>
+        <date year="2006" month="7" date="20" type="HOLIDAY"/>
+        <date year="2006" month="8" date="7" type="HOLIDAY"/>
+        <date year="2006" month="8" date="21" type="HOLIDAY"/>
+        <date year="2006" month="10" date="16" type="HOLIDAY"/>
+        <date year="2006" month="11" date="6" type="HOLIDAY"/>
+        <date year="2006" month="11" date="13" type="HOLIDAY"/>
+        <date year="2006" month="12" date="8" type="HOLIDAY"/>
+        <date year="2006" month="12" date="25" type="HOLIDAY"/>
+        <date year="2007" month="1" date="1" type="HOLIDAY"/>
+        <date year="2007" month="1" date="8" type="HOLIDAY"/>
+        <date year="2007" month="3" date="19" type="HOLIDAY"/>
+        <date year="2007" month="4" date="5" type="HOLIDAY"/>
+        <date year="2007" month="4" date="6" type="HOLIDAY"/>
+        <date year="2007" month="5" date="1" type="HOLIDAY"/>
+        <date year="2007" month="5" date="21" type="HOLIDAY"/>
+        <date year="2007" month="6" date="11" type="HOLIDAY"/>
+        <date year="2007" month="6" date="18" type="HOLIDAY"/>
+        <date year="2007" month="7" date="2" type="HOLIDAY"/>
+        <date year="2007" month="7" date="20" type="HOLIDAY"/>
+        <date year="2007" month="8" date="7" type="HOLIDAY"/>
+        <date year="2007" month="8" date="20" type="HOLIDAY"/>
+        <date year="2007" month="10" date="15" type="HOLIDAY"/>
+        <date year="2007" month="11" date="5" type="HOLIDAY"/>
+        <date year="2007" month="11" date="12" type="HOLIDAY"/>
+        <date year="2007" month="12" date="8" type="HOLIDAY"/>
+        <date year="2007" month="12" date="25" type="HOLIDAY"/>
+        <date year="2008" month="1" date="1" type="HOLIDAY"/>
+        <date year="2008" month="1" date="7" type="HOLIDAY"/>
+        <date year="2008" month="3" date="20" type="HOLIDAY"/>
+        <date year="2008" month="3" date="21" type="HOLIDAY"/>
+        <date year="2008" month="3" date="24" type="HOLIDAY"/>
+        <date year="2008" month="5" date="1" type="HOLIDAY"/>
+        <date year="2008" month="5" date="5" type="HOLIDAY"/>
+        <date year="2008" month="5" date="26" type="HOLIDAY"/>
+        <date year="2008" month="6" date="16" type="HOLIDAY"/>
+        <date year="2008" month="6" date="30" type="HOLIDAY"/>
+        <date year="2008" month="7" date="20" type="HOLIDAY"/>
+        <date year="2008" month="8" date="7" type="HOLIDAY"/>
+        <date year="2008" month="8" date="18" type="HOLIDAY"/>
+        <date year="2008" month="10" date="13" type="HOLIDAY"/>
+        <date year="2008" month="11" date="3" type="HOLIDAY"/>
+        <date year="2008" month="11" date="17" type="HOLIDAY"/>
+        <date year="2008" month="12" date="8" type="HOLIDAY"/>
+        <date year="2008" month="12" date="25" type="HOLIDAY"/>
+        <date year="2009" month="1" date="1" type="HOLIDAY"/>
+        <date year="2009" month="1" date="12" type="HOLIDAY"/>
+        <date year="2009" month="3" date="23" type="HOLIDAY"/>
+        <date year="2009" month="4" date="5" type="HOLIDAY"/>
+        <date year="2009" month="4" date="9" type="HOLIDAY"/>
+        <date year="2009" month="4" date="10" type="HOLIDAY"/>
+        <date year="2009" month="5" date="1" type="HOLIDAY"/>
+        <date year="2009" month="5" date="25" type="HOLIDAY"/>
+        <date year="2009" month="6" date="15" type="HOLIDAY"/>
+        <date year="2009" month="6" date="22" type="HOLIDAY"/>
+        <date year="2009" month="6" date="29" type="HOLIDAY"/>
+        <date year="2009" month="7" date="20" type="HOLIDAY"/>
+        <date year="2009" month="8" date="7" type="HOLIDAY"/>
+        <date year="2009" month="8" date="17" type="HOLIDAY"/>
+        <date year="2009" month="10" date="12" type="HOLIDAY"/>
+        <date year="2009" month="11" date="2" type="HOLIDAY"/>
+        <date year="2009" month="11" date="16" type="HOLIDAY"/>
+        <date year="2009" month="12" date="8" type="HOLIDAY"/>
+        <date year="2009" month="12" date="25" type="HOLIDAY"/>
+        <date year="2010" month="1" date="1" type="HOLIDAY"/>
+        <date year="2010" month="1" date="11" type="HOLIDAY"/>
+        <date year="2010" month="3" date="22" type="HOLIDAY"/>
+        <date year="2010" month="4" date="1" type="HOLIDAY"/>
+        <date year="2010" month="4" date="2" type="HOLIDAY"/>
+        <date year="2010" month="5" date="1" type="HOLIDAY"/>
+        <date year="2010" month="5" date="17" type="HOLIDAY"/>
+        <date year="2010" month="6" date="7" type="HOLIDAY"/>
+        <date year="2010" month="6" date="14" type="HOLIDAY"/>
+        <date year="2010" month="7" date="5" type="HOLIDAY"/>
+        <date year="2010" month="7" date="20" type="HOLIDAY"/>
+        <date year="2010" month="8" date="7" type="HOLIDAY"/>
+        <date year="2010" month="8" date="16" type="HOLIDAY"/>
+        <date year="2010" month="10" date="18" type="HOLIDAY"/>
+        <date year="2010" month="11" date="1" type="HOLIDAY"/>
+        <date year="2010" month="11" date="15" type="HOLIDAY"/>
+        <date year="2010" month="12" date="8" type="HOLIDAY"/>
+        <date year="2010" month="12" date="25" type="HOLIDAY"/>
+        <date year="2011" month="1" date="1" type="HOLIDAY"/>
+        <date year="2011" month="1" date="10" type="HOLIDAY"/>
+        <date year="2011" month="3" date="21" type="HOLIDAY"/>
+        <date year="2011" month="4" date="21" type="HOLIDAY"/>
+        <date year="2011" month="4" date="22" type="HOLIDAY"/>
+        <date year="2011" month="6" date="6" type="HOLIDAY"/>
+        <date year="2011" month="6" date="27" type="HOLIDAY"/>
+        <date year="2011" month="7" date="4" type="HOLIDAY"/>
+        <date year="2011" month="7" date="20" type="HOLIDAY"/>
+        <date year="2011" month="8" date="15" type="HOLIDAY"/>
+        <date year="2011" month="10" date="17" type="HOLIDAY"/>
+        <date year="2011" month="11" date="7" type="HOLIDAY"/>
+        <date year="2011" month="11" date="14" type="HOLIDAY"/>
+        <date year="2011" month="12" date="8" type="HOLIDAY"/>
+        <date year="2011" month="12" date="25" type="HOLIDAY"/>
+        <date year="2012" month="1" date="1" type="HOLIDAY"/>
+        <date year="2012" month="1" date="9" type="HOLIDAY"/>
+        <date year="2012" month="3" date="19" type="HOLIDAY"/>
+        <date year="2012" month="4" date="5" type="HOLIDAY"/>
+        <date year="2012" month="4" date="6" type="HOLIDAY"/>
+        <date year="2012" month="5" date="1" type="HOLIDAY"/>
+        <date year="2012" month="5" date="21" type="HOLIDAY"/>
+        <date year="2012" month="6" date="11" type="HOLIDAY"/>
+        <date year="2012" month="6" date="18" type="HOLIDAY"/>
+        <date year="2012" month="7" date="2" type="HOLIDAY"/>
+        <date year="2012" month="7" date="20" type="HOLIDAY"/>
+        <date year="2012" month="8" date="7" type="HOLIDAY"/>
+        <date year="2012" month="8" date="20" type="HOLIDAY"/>
+        <date year="2012" month="10" date="15" type="HOLIDAY"/>
+        <date year="2012" month="11" date="5" type="HOLIDAY"/>
+        <date year="2012" month="11" date="12" type="HOLIDAY"/>
+        <date year="2012" month="12" date="8" type="HOLIDAY"/>
+        <date year="2012" month="12" date="25" type="HOLIDAY"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="49" name="Fase 1" color="#666666" meeting="false" start="2019-09-10" duration="1" complete="100" thirdDate="2019-09-10" thirdDate-constraint="0" expand="true">
+            <task id="21" name="Conformación de Grupos de miniproyecto3" color="#3399ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-09-10" duration="1" complete="100" thirdDate="2019-09-10" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="Selección Tema mini proyecto ponerse de acuerdo con el compañero realizar acta de compromisos" color="#ff6666" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-09-10" duration="1" complete="100" thirdDate="2019-09-10" thirdDate-constraint="0" expand="true"/>
+            <task id="24" name="Cronograma de actividades Gant project" color="#ffff00" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-09-10" duration="1" complete="100" thirdDate="2019-09-10" thirdDate-constraint="0" expand="true"/>
+            <task id="0" name="Realizar Objetivo Gerenal y Especificos, Logo" color="#009999" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-09-10" duration="1" complete="100" thirdDate="2019-09-10" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="Requerimientos  o Historias de Usuarios (En formato)" color="#6666ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-09-10" duration="1" complete="100" thirdDate="2019-09-10" thirdDate-constraint="0" expand="true"/>
+            <task id="59" name="Diagrama de Casos de Uso" color="#f4626b" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-09-10" duration="1" complete="100" thirdDate="2019-09-10" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="50" name="Fase 2" color="#666666" meeting="false" start="2019-09-11" duration="1" complete="100" thirdDate="2019-09-11" thirdDate-constraint="0" expand="true">
+            <task id="5" name="Casos de Uso extendido" color="#3399ff" shape="1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0" meeting="false" start="2019-09-11" duration="1" complete="100" thirdDate="2019-09-11" thirdDate-constraint="0" expand="true"/>
+            <task id="6" name="Diagrama Modelo relacional" color="#006633" shape="1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0" meeting="false" start="2019-09-11" duration="1" complete="100" thirdDate="2019-09-11" thirdDate-constraint="0" expand="true"/>
+            <task id="7" name="Script de la base de datos." color="#ffff66" shape="1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0" meeting="false" start="2019-09-11" duration="1" complete="100" thirdDate="2019-09-11" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Presupuesto y Costo aplicativo" color="#990000" shape="1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0" meeting="false" start="2019-09-11" duration="1" complete="100" thirdDate="2019-09-11" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="52" name="Fase 3" color="#666666" meeting="false" start="2019-09-12" duration="4" complete="65" thirdDate="2019-09-12" thirdDate-constraint="0" expand="true">
+            <task id="8" name="Diccionario de Datos" color="#3333ff" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-12" duration="1" complete="100" thirdDate="2019-09-12" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="Diagrama de distribución" color="#00ff00" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-12" duration="1" complete="100" thirdDate="2019-09-12" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="Diagrama de clases" color="#f4a750" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-12" duration="1" complete="100" thirdDate="2019-09-12" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Aplicativo funcional" color="#66ccff" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-12" duration="4" complete="40" thirdDate="2019-09-12" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="54" name="Fase 4" color="#666666" meeting="false" start="2019-09-18" duration="1" complete="50" thirdDate="2019-09-18" thirdDate-constraint="0" expand="true">
+            <task id="12" name="Pruebas (minimo Tres)" color="#f44c65" shape="1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1" meeting="false" start="2019-09-18" duration="1" complete="0" thirdDate="2019-09-18" thirdDate-constraint="0" expand="true"/>
+            <task id="15" name="Manual de Usuario" color="#42c2cf" shape="1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1" meeting="false" start="2019-09-18" duration="1" complete="0" thirdDate="2019-09-18" thirdDate-constraint="0" expand="true"/>
+            <task id="16" name="Manual de instalación y tecnico" color="#f4d10f" shape="1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1" meeting="false" start="2019-09-18" duration="1" complete="100" thirdDate="2019-09-18" thirdDate-constraint="0" expand="true"/>
+            <task id="18" name="Plan de instalacion y Respaldo" color="#19bc6c" shape="1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1" meeting="false" start="2019-09-18" duration="1" complete="100" thirdDate="2019-09-18" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="56" name="Fase final" color="#666666" meeting="false" start="2019-09-19" duration="1" complete="0" thirdDate="2019-09-19" thirdDate-constraint="0" expand="true">
+            <task id="19" name="Documento final completo" color="#8e5611" shape="0,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0" meeting="false" start="2019-09-19" duration="1" complete="0" thirdDate="2019-09-19" thirdDate-constraint="0" expand="true"/>
+            <task id="20" name="Socialicazión (Stand)" color="#749d15" shape="0,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0" meeting="false" start="2019-09-19" duration="1" complete="0" thirdDate="2019-09-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Miguel Lopez" function="2" contacts="mlopez340@misena.edu.co" phone="3208323062">
+            <rate name="standard" value="1200000"/>
+        </resource>
+        <resource id="1" name="Carlos Gomez" function="1" contacts="canorato2@misena.edu.co" phone="3192340704">
+            <rate name="standard" value="200000"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="59" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Diseñador web"/>
+        <role id="2" name="Desarrollador de software"/>
+    </roles>
+</project>

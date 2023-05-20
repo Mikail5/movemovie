@@ -1,0 +1,542 @@
+body{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background-image: url("../img/backgADM.jpg");
+	background-size: auto 200vh;
+	background-repeat: no-repeat;
+	height: auto;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	font-family: "Tw Cen MT", sans-serif;
+}
+
+header{
+	background: #0D47A1;
+	height: 100%;
+	width: 10%;
+	margin: 0;
+	color: #FFFFFF;
+}
+
+h2{
+	background: #1A237E;
+	margin: 0;
+	padding: 6px 0;
+	text-align: center;
+}
+
+.option{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	padding-top: 15%;
+}
+
+.dicon{
+	width: 50px;
+	height: auto;
+	align-self: center;
+}
+
+.descrip{
+	align-self: center;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.option:hover{
+	background-color: rgba(0,0,0, 0.2);
+}
+
+.coninfo
+{
+	background-color: rgba(255,255,255, 0.6);
+	width: 90%;
+	padding: 0;
+	height: auto;
+}
+
+.coninfo nav{
+	background-color: #0D7FA1;
+	margin: 0;
+	height: auto;
+	width: 100%;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.coninfo nav a{
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 12px 20px 10px;
+	border-left: 1px solid #169DC5;
+}
+
+.coninfo nav a:hover{
+	background: rgba(0,0,0, 0.2);
+}
+
+.binve{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.contop{
+	background: #FAFAFA;
+	height: auto;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+}
+
+.userin{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.dimim{
+	height: auto;
+	width: 30%;
+	margin: 5%;
+}
+
+h3{
+	font-size: 18px;
+}
+
+#unidop{
+	padding: 10px;
+	color: #494949;
+	text-decoration: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.long{
+	margin-left: 8px;
+}
+
+.icond{
+	height: 30px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#unidop:hover{
+	background: rgba(0,0,0, 0.2);
+	cursor: pointer;
+}
+
+.presin{
+	width: 75%;
+	height: auto;
+}
+
+.presin h1{
+	text-align: center;
+	color: #494949;
+}
+
+.coninfo nav form{
+	display: flex;
+	padding: 10px; 
+}
+
+.dato{
+	text-align: left;
+	font-size: 18px;
+	color: #494949;
+}
+
+.buskd{
+	border: 1px solid #FFFFFF;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 2px 10px;
+	outline: none;
+}
+
+#botbus{
+	display: none;
+}
+
+#botper{
+	background: #9C9C9C;
+	border: 1px solid #9C9C9C;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: #FFFFFF;
+	padding: 2px 8px 0;
+	outline: none;
+	margin-left: -5px; 
+}
+
+.icbus{
+	margin: 0;
+	height: 15px;
+	width: auto;
+}
+
+#botper:hover{
+	background: #C5C5C5;
+	border-color: #C5C5C5;
+	cursor: pointer;
+}
+
+#botper:active{
+	border: 1px inset #8A8A8A;
+}
+
+#botoc{
+	display: none;
+}
+
+.mostram{
+	display: none;
+	height: 30px;
+	width: 100%;
+	background: #0D47A1;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#menu{
+	height: auto;
+	float: right;
+	height: 100%;
+	width: 35px;
+}
+
+.dimen{
+	height: 27px;
+	width: auto;
+	margin: 2px 5px;
+}
+
+#menu:hover{
+	background: rgba(0,0,0, 0.2);
+	cursor: pointer;
+}
+
+.desenfo{
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.2s;
+}
+
+#continfo{
+	background: #F4F6F6;
+	width: 60%;
+	height: auto;
+	overflow: hidden;
+	margin: 10% auto;
+	transition: all 0.3s;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+
+#regnew{
+	display: none;
+}
+
+#regnew:checked ~ .desenfo{
+    visibility: visible;
+	opacity: 1;
+ }
+
+.part{
+	background: #00BCD4;
+}
+
+.dimfor{
+	height: auto;
+	width: 40%;
+	margin: 10% 30%;
+}
+
+.part h1{
+	margin: 0;
+	margin-bottom: 5%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.entrad{
+	background: #AAB7B8;
+	border: 1px solid #AAB7B8;
+	margin: 2% 6%;
+	padding: 10px;
+	font-size: 15px;
+	outline: none;
+	color: #FAFAFA;
+}
+
+.partcamp{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.drum{
+	font-size: 20px;
+	color: #959595;
+	margin: 2% 10% 0;
+}
+
+ #back{
+	background: transparent;
+	border-radius: 50%;
+	padding: 1px 5px;
+	color: #E74C3C;
+	text-align: center;
+	transition: all 0.2s;
+	align-self: flex-end;
+	margin: 5px;
+}
+
+#back:hover{
+	background: #E74C3C;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.penvia{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.botrp{
+	background: #00BCD4;
+	border: 1px solid #00BCD4;
+	height: 40px;
+	width: 85%;
+	font-family: "Tw Cen MT", sans-serif;
+	font-size: 20px;
+	outline: none;
+	color: #FFFFFF;
+	margin: 2%;
+}
+
+.botrp:hover{
+	background: #00D4EF;
+	border-color: #00D4EF;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.botrp:active{
+	border: 1px inset #01A8BD;
+}
+
+#tablaza{
+	width: 100%; 
+	background-color: #F2F3F4; 
+	border-collapse: collapse;
+}
+.linea{
+	background-color: #27B345; 
+	border-bottom: solid 5px #29823C;
+	color:white;
+}
+.celcab{
+	font-size: 20px;
+	padding:10px;
+	border-right: solid 1px #29823C;
+	text-align: center;
+}
+
+.celsig{
+	font-size: 20px;
+	padding:10px;
+	border-bottom: 1px solid #999999;
+}
+
+.cabedi{
+	font-size: 20px;
+	padding:10px;
+	border-right: solid 1px #29823C;
+	display: none;
+	text-align: center;
+}
+
+.cabeli{
+	font-size: 20px;
+	padding:10px;
+	border-right: solid 1px #29823C;
+	display: none;
+	text-align: center;
+}
+
+.esedi{
+	font-size: 18px;
+	padding: 10px;
+	border-left: 1px solid #999999;
+	text-align: center;
+	display: none;
+}
+
+.eseli{
+	font-size: 18px;
+	padding: 10px;
+	border-left: 1px solid #999999;
+	text-align: center;
+	display: none;
+}
+
+.vend{
+	color: #34F75E;
+}
+
+.pv{
+	color: #F73434;
+}
+
+.dimg{
+	height: 30px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.presin #checop,#checoptwo{
+	display: none;
+}
+
+#checop:checked ~ #tablaza .linea tr .cabedi{
+	display: block;
+}
+
+#checoptwo:checked ~ #tablaza .linea tr .cabeli{
+	display: block;
+}
+
+#checop:checked ~ #tablaza thead tr .esedi{
+	display: block;
+}
+
+#checoptwo:checked ~ #tablaza thead tr .eseli{
+	display: block;
+}
+
+
+@media(max-width: 1000px){
+	body{
+		display: block;
+	}
+
+	.mostram{
+		display: block;
+	}
+
+	.coninfo{
+		width: 100%;
+		height: auto;
+	}
+
+	header{
+		position: absolute;
+		background: #0D47A1;
+		height: auto;
+		width: 100px;
+		margin: 0;
+		color: #FFFFFF;
+		top: 30px;
+		right: 0;
+		transform: translateY(-100%);
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.2s;
+	}
+
+	#botoc:checked ~ header{
+	    transform: translateY(0);
+	    opacity: 1;
+	    visibility: visible;
+	 }
+}
+@media(max-width: 728px){
+	#continfo{
+		width: 100%;
+		margin: 0;
+		margin-top: 10%;
+	}
+	.description{
+		width: 80%;
+		margin: 16% auto 0;
+	}
+}
+@media(max-width: 700px){
+	.presin{
+		width: 60%;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.contop{
+		width: 40%;
+	}
+}
+
+@media(max-width: 700px){
+	.binve{
+		display: block;
+	}
+	.contop{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	.userin{
+		margin-right: 6%;
+	}
+	.presin{
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media(max-width: 500px){
+	#continfo{
+		width: 90%;
+		height: auto;
+		margin: 10% auto 0;
+		grid-template-columns: repeat(1,1fr);
+	}
+	.celcab{
+		font-size: 18px;
+		padding: 5px;
+	}
+
+	.celsig{
+		font-size: 18px;
+		padding: 5px;
+	}
+
+	.cabedi{
+		font-size: 18px;
+		padding: 5px;
+	}
+
+	.cabeli{
+		font-size: 18px;
+		padding: 5px;
+	}
+	.dimg{
+		height: 20px;
+		width: auto;
+	}
+}

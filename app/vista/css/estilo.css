@@ -1,0 +1,411 @@
+/*===============================cuerpo===============================*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Tw Cen MT", sans-serif;
+}
+
+header {
+  background: linear-gradient(90deg, #F5B041,#F1C40F);
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  border-bottom: 1px solid black;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+ h1{
+  color: white;
+  margin-top: 35px;
+  margin-left: 35px;
+}
+.menu {
+
+  float: right;
+  margin-top: -25px;
+  margin-right: 90px;
+  font-size: 1.2rem;
+}
+.bot {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  padding-top: 156px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+ 
+ .ret,.ret2,.ret3{
+  padding:20px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  color: black;
+  text-decoration: none;
+  line-height: 25px;
+
+ }
+ img{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+p{
+  margin-top: 25px; 
+  text-align: center;
+}
+.fondo {
+  background: linear-gradient(90deg, #F5B041,white);
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+   width: 100%;
+   height: 50px;
+
+}
+
+.cine {
+    width: 100%;
+    display: inline-block;
+  }
+.viee{
+ margin-left: 110px;
+ outline: none;
+}
+.principal{
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr)
+}
+.principall{
+
+display:flex;
+margin-bottom: 0px;
+}
+ .peli{ 
+  padding:55px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  color: black;
+  }
+
+.titu {
+  margin-left: 45px;
+  margin-bottom: 25px;
+  color: #1A5276;
+  font-size: 1.9rem;
+}
+.cater{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.boy{
+  width: 130px;
+  height: 37px;
+  border-radius: 3px;
+  background: #1A5276;
+  color:white;
+  font-size: 0.7rem;
+}
+.bay {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 25px;
+  border-radius: 3px;
+  background: black;
+  color:white;
+  font-size: 0.7rem;
+}
+
+  .cine {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+.viee{
+ margin-left: 110px;
+ outline: none;
+}
+.principall{
+display:flex;
+margin-bottom: 0px;
+}
+.peli{
+  border: solid 1px black;
+  margin-left: 15px;
+  width: 230px;
+  height: 400px;
+  box-shadow: black 1px;
+  margin-bottom: 10px;
+}
+.titu {
+  margin-left: 45px;
+  margin-bottom: 25px;
+  color: #1A5276;
+  font-size: 1.9rem;
+}
+ul {
+  list-style: none;
+  margin-top: 25px;
+  text-align: center;
+  line-height: 30px;
+}
+.bott{
+  background: #F5B041;
+  font-size: 1.1rem;
+  color: white;
+  width: 150px;
+  height: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.boy{
+  width: 130px;
+  height: 37px;
+  border-radius: 3px;
+  background: #1A5276;
+  color:white;
+  font-size: 0.7rem;
+}
+.bay {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 25px;
+  border-radius: 3px;
+  background: black;
+  color:white;
+  font-size: 0.7rem;
+}
+/*====================ventana_modal=====================*/
+.sombrea{
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	animation: modal 2s;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.2s;
+}
+
+#conpasl{
+	width: 400px;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	transition: all 0.3s;
+}
+
+#cerrar{
+	display: none;
+}
+
+#cerrar:checked ~ .sombrea{
+    visibility: visible;
+	opacity: 1;
+ }
+
+
+.conten{
+ 	height: auto;
+ 	width: 800px;
+ 	margin: 0;
+ 	padding: 0;
+ 	transition: all 0.3s;
+ 	display: flex;
+ 	justify-content: flex-start;
+ }
+
+ #cambio{
+ 	display: none;
+ }
+
+#cambio:checked ~ .conten{
+    margin-left: -400px;
+ }
+
+.cuad1{
+	background: #AEB6BF;
+	height: 100%;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.cabis{
+	background: #5D6D7E;
+	height: 50px;
+	width: 96%;
+	display: flex;
+	padding: 8px;
+}
+
+.dimcis{
+	height: 100%;
+	width: 52px;
+}
+
+h2{
+	color: white;
+	margin: 0;
+	align-self: center;
+	margin-left: 13%;
+	margin-right: 20%;
+}
+
+#back{
+	background: red;
+	width:150px;
+	padding: 5px;
+	color: white;
+	transition: all 0.2s;
+}
+
+
+.campos{
+	width: 50%;
+	font-size: 20px;
+	align-self: center;
+	margin: 20px 0;
+}
+
+.botinse{
+	background: #FF1919;
+	height: 40px;
+	width: 51%;
+	color: #FFF;
+	border: 2px solid #FF1919;
+	align-self: center;
+	font-size: 15px;
+}
+
+.botinse:hover{
+	background: #FF6959;
+	border-color: #FF6959; 
+	cursor: pointer;
+}
+
+.botregi{
+	background: #166BC6;
+	padding: 11px 17%;
+	color: #FFF;
+	align-self: center;
+	font-size: 15px;
+	margin: 20px;
+}
+
+.botregi:hover{
+	background: #3A89DE;
+	cursor: pointer;
+}
+
+.titr{
+	color: white;
+	margin: 0;
+	align-self: center;
+	margin-left: 35%;
+	margin-right: 28%;
+}
+
+.botdat{
+	background: #166BC6;
+	height: 40px;
+	width: 51%;
+	color: #FFF;
+	border: 2px solid #166BC6;
+	align-self: center;
+	font-size: 15px;
+}
+
+.botdat:hover{
+	background: #3A89DE;
+	border-color: #3A89DE; 
+	cursor: pointer;
+}
+
+.botback{
+	background: #FF1919;
+	padding: 11px 20%;
+	color: #FFF;
+	align-self: center;
+	font-size: 15px;
+	margin: 20px;
+}
+
+.botback:hover{
+	background: #FF6959;
+	cursor: pointer;
+}
+
+@media(max-width: 1024px){
+	.sombrea{
+		height: auto;
+	}
+}
+/*=========================================================*/
+.sombreer{
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	animation: modal 2s;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.2s;
+}
+#fre{
+	display: none;
+}
+
+#fre:checked ~ .sombreer{
+    visibility: visible;
+	opacity: 1;
+ }
+
+ .sombro{
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	animation: modal 2s;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.2s;
+}
+#frerr{
+	display: none;
+}
+
+#frerr:checked ~ .sombro{
+    visibility: visible;
+	opacity: 1;
+ }

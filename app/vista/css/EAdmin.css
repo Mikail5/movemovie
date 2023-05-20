@@ -1,0 +1,224 @@
+body{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background-image: url("../img/backgADM.jpg");
+	background-size: auto 200vh;
+	background-repeat: no-repeat;
+	height: auto;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	font-family: "Tw Cen MT", sans-serif;
+}
+
+header{
+	background: #0D47A1;
+	height: 100%;
+	width: 10%;
+	margin: 0;
+	color: #FFFFFF;
+}
+
+h2{
+	background: #1A237E;
+	margin: 0;
+	padding: 6px 0;
+	text-align: center;
+}
+
+.dimim{
+	height: auto;
+	width: 90%;
+	margin: 5%;
+}
+
+h3{
+	font-size: 18px;
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+}
+
+.option{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	padding-top: 15%;
+}
+
+.dicon{
+	width: 50px;
+	height: auto;
+	align-self: center;
+}
+
+.descrip{
+	align-self: center;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.option:hover{
+	background-color: rgba(0,0,0, 0.2);
+}
+
+.coninfo
+{
+	background-color: rgba(255,255,255, 0.6);
+	width: 90%;
+	padding: 0;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.coninfo nav{
+	background-color: #0D7FA1;
+	margin: 0;
+	text-align: right;
+	height: auto;
+	width: 100%;
+	color: #FFFFFF;
+	padding: 10px 0;
+}
+
+.coninfo nav a{
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 10px 20px;
+}
+
+.coninfo nav a:hover{
+	background: rgba(0,0,0, 0.2);
+}
+
+.binve{
+	width: 60%;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	alignment-baseline: central;
+	margin-top: auto;
+}
+
+.binve h1{
+	text-align: center;
+	color: #494949;
+	font-size: 50px;
+	margin-top: 0;
+}
+
+.mesage{
+	color: #494949;
+	font-size: 25px;
+}
+
+.acci{
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.binve a{
+	background: #00A568;
+	padding: 10px 40px;
+	font-size: 24px;
+	color: #FFFFFF;
+	text-decoration: none;
+	align-self: center;
+	border: 2px solid #00A568;
+	border-radius: 5px;
+	transition: all 0.2s;
+}
+
+.binve a:hover{
+	background: #03C57E;
+	border-radius: 12px;
+	border-color: #FFFFFF;
+}
+
+#botoc{
+	display: none;
+}
+
+.dimen:hover #menu{
+	background: rgba(0,0,0, 1);
+	cursor: pointer;
+}
+
+.dimen{
+	height: 27px;
+	width: auto;
+}
+
+.mostram{
+	display: none;
+	height: 30px;
+	width: 100%;
+	background: #0D47A1;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#menu{
+	height: auto;
+	float: right;
+	height: 100%;
+	width: 35px;
+}
+
+.dimen{
+	height: 27px;
+	width: auto;
+	margin: 2px 5px;
+}
+
+#menu:hover{
+	background: rgba(0,0,0, 0.2);
+	cursor: pointer;
+}
+
+@media(max-width: 1000px){
+	body{
+		display: block;
+	}
+
+	.mostram{
+		display: block;
+	}
+
+	.coninfo{
+		width: 100%;
+		height: 165vh;
+	}
+
+	header{
+		position: absolute;
+		background: #0D47A1;
+		height: auto;
+		width: 100px;
+		margin: 0;
+		color: #FFFFFF;
+		top: 30px;
+		right: 0;
+		transform: translateY(-100%);
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.2s;
+	}
+
+	#botoc:checked ~ header{
+	    transform: translateY(0);
+	    opacity: 1;
+	    visibility: visible;
+	 }
+}
+@media(max-width: 700px){
+	.binve{
+		width: 90%;
+	}
+}
